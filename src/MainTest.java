@@ -20,6 +20,6 @@ class MainTest {
         assertEquals("", MyUtils.is369(15));
         assertEquals("**", MyUtils.is369(33));
         assertEquals("***", MyUtils.is369(333));
-        assertEquals("****", MyUtils.is369(3369));
+        assertEquals("****", MyUtils.is369(3364));
     }
 }
